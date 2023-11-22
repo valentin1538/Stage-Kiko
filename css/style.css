@@ -92,6 +92,10 @@ a:hover {
       transform: scale(1.1);
   }
 
+.navbar-nav {
+    text-align: center;
+}
+
 
 
 
