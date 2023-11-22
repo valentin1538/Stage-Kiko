@@ -33,13 +33,33 @@
     scroll-behavior: smooth;
   }
 
+  /* Roboto */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../src/Font/Roboto-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Montserrat */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/Font/Montserrat-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body {
     background-color: var(--clr-rose);
     margin: 0; /* 1 */
-    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji'; /* 2 */
+    font-family: 'Montserrat', sans-serif;
 
 }
+  
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 a:hover {
     transition: .5s;
@@ -71,5 +91,7 @@ a:hover {
   .team-item:hover {
       transform: scale(1.1);
   }
+
+
 
 
